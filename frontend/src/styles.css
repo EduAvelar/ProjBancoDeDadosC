@@ -1,0 +1,19 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    height: 100%;
+}
+
+body{
+    background: #e6eaeb;
+    -webkit-font-smothing: antialiased;
+}
+
+body, input, button, textarea{
+    font-family: Roboto, sans-serif;
+}
