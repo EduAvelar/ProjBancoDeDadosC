@@ -101,10 +101,10 @@ function App() {
   return (
     <div id="app">     
       <aside>
-        <strong>Bloco de Anotações</strong>
+        <strong>Bloco de Lembrentes</strong>
         <form onSubmit={handleSubmit}>
           <div className="input-block">
-            <label htmlFor="title">Titulo da Anotação</label>
+            <label htmlFor="title">Titulo do Lembrete</label>
             <input
               required
               maxLength="30" 
@@ -113,7 +113,7 @@ function App() {
             />
           </div>
           <div className="input-block">
-            <label htmlFor="nota">Anotações</label>
+            <label htmlFor="nota">Lembrete</label>
             <textarea
               required
               maxLength="350"

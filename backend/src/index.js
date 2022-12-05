@@ -15,14 +15,3 @@ app.use(routes)
 
 
 app.listen(8080)
-
-
-/*app.get('/', (request, response) => {
-    return response.json({
-        nome:"eduardo",
-        idade: 28,
-        profissao:"Quality Assurence",
-        formacao:"Engenherio de Software",
-        hobby:"aprender a programar"
-    })
-})*/
