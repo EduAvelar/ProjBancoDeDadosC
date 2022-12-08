@@ -101,7 +101,7 @@ function App() {
   return (
     <div id="app">     
       <aside>
-        <strong>Bloco de Lembrentes</strong>
+        <strong>Bloco de Lembretes</strong>
         <form onSubmit={handleSubmit}>
           <div className="input-block">
             <label htmlFor="title">Titulo do Lembrete</label>
